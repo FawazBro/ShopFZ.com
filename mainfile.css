@@ -1,0 +1,509 @@
+.html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.upper_box {
+  width: auto;
+  background-color: rgb(70, 252, 228);
+  height: 60px;
+  
+  }
+
+ .web-name {
+  font-family: Arial;
+  font-size: 18px;
+  margin-top: 16px;
+  font-weight: bold;
+ }
+
+.search-box {
+  font-size: 16px;
+  margin-left: 18px;
+  margin-top: 13px;
+  border-radius: 150px;
+  padding-left: 8px;
+  width: 200px;
+  height: 35px;
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.search-box:hover {
+  border-color: black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.home {
+  margin-left: 760px;
+  color: rgb(216, 5, 5);
+  font-size: 20px;
+}
+
+.home:hover {
+  color: rgb(0, 0, 231);
+  transition: color, 0.55s;
+}
+
+.contact {
+  margin-left: 30px;
+  color: rgb(216, 5, 5);
+  font-size: 20px;
+}
+
+.contact:hover {
+  color: rgb(0, 0, 231);
+  transition: color, 0.55s;
+}
+
+.about-us {
+  margin-left: 30px;
+  color: rgb(216, 5, 5);
+  font-size: 20px; 
+}
+
+.about-us:hover {
+  color: rgb(0, 0, 231);
+  transition: color, 0.55s;
+}
+
+p {
+  margin: 0px;
+  font-family: Arial;
+}
+
+.web-name {
+  color: blue;
+  display: inline-block;
+  padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first-product {
+  display: inline-block;
+  border-radius: 2px;
+  width: 380px 
+}
+
+.bat-name {
+  margin-left: 150px;
+  margin-bottom: 8px;
+  font-size: 25px;
+}
+
+.bat-model {
+  padding-left: 0px;
+}
+.firstproduct-div {
+  display: inline-block;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 380px;
+  margin-left: 100px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.first-product-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.model-heading {
+  color: rgb(62, 182, 252);
+  margin-left: 2px;
+  font-size: 25px;
+}
+
+.NB-bat-model {
+  font-size: 25px;
+  margin-left: 2px;
+}
+
+.price-1 {
+  color: green;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.price-heading {
+  margin-left: 2px;
+  font-size: 25px;
+} 
+
+.buy-button1 {
+  color: white;
+  font-family: Arial;
+  margin-left: 147px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: inline-block;
+  background-color: green;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 8px;
+  transition: 0.15s;
+  text-decoration: none;
+}
+
+.buy-button1:hover {
+  opacity: 0.75;
+}
+  
+.buy-button1:active {
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.secondproduct-div {
+  width: 380px;
+  margin-right: 100px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  margin-top: 30px;
+}
+
+.second-product {
+  border-radius: 2px;
+  width: 380px;
+  height: 478px;
+  margin-right: 100px;
+}
+
+.bat-name2 {
+  padding-left: 150px;
+  margin-bottom: 8px;
+  font-size: 25px;
+}
+
+.model-heading-2 {
+  color: rgb(62, 182, 252);
+  margin-left: 2px;
+  font-size: 25px;
+}
+
+.model-name2 {
+  font-size: 25px;
+  margin-left: 2px;
+}
+
+.price-heading2 {
+  margin-left: 2px;
+  font-size: 25px;
+}
+
+.second-price {
+  color: green;
+  font-weight: bold;
+}
+
+.buy-button2 {
+  color: white;
+  font-family: Arial;
+  margin-left: 147px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: inline-block;
+  background-color: green;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 8px;
+  transition: 0.15s;
+  text-decoration: none;
+}
+
+.buy-button2:hover {
+  opacity: 0.75;
+}
+  
+.buy-button2:active {
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product-container-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.thirdproduct-div {
+  width: 380px;
+  margin-left: 100px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+  
+.third-product {
+  border-radius: 5px;
+  width: 380px;
+  height: 478px;
+}
+
+.football-name {
+  margin-left: 100px;
+  margin-bottom: 8px;
+  font-size: 25px;
+}
+
+.model-heading3 {
+  color: rgb(62, 182, 252);
+  font-size: 25px;
+  margin-left: 2px;
+} 
+
+.model-name {
+  margin-top: 8px;
+  margin-left: 2px;
+  font-size: 25px;
+  margin-left: 2px;
+}
+
+.pr-4 {
+  margin-left: 2px;
+  font-size: 25px;
+}
+
+.price-3 {
+  color: green;
+  font-weight: bold;
+}
+.buy-button3 {
+  color: white;
+  font-family: Arial;
+  margin-left: 147px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: inline-block;
+  background-color: green;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 8px;
+  transition: 0.15s;
+  text-decoration: none;
+}
+
+.buy-button3:hover {
+  opacity: 0.75;
+}
+  
+.buy-button3:active {
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fourthproduct-div {
+  width: 380px;
+  margin-right: 100px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.fourth-product {
+  border-radius: 2px;
+  width: 380px;
+  height: 478px;
+}
+
+.football-name2 {
+  margin-left: 114px;
+  margin-bottom: 8px;
+  font-size: 25px;
+}
+
+.pr-5 {
+  margin-left: 2px;
+  font-size: 25px;
+}
+
+.model-name-4 {
+  margin-top: 8px;
+  font-size: 25px;
+  
+}
+
+.model-heading-4 {
+  color: rgb(62, 182, 252);
+  margin-left: 2px;
+  font-size: 25px;
+  margin-left: 2px;
+}
+
+.price-4 {
+  color: green;
+  font-weight: bold;
+}
+
+.buy-button4 {
+  color: white;
+  font-family: Arial;
+  margin-left: 147px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  display: inline-block;
+  background-color: green;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 8px;
+  transition: 0.15s;
+  text-decoration: none;
+  
+}
+
+.buy-button4:hover {
+  opacity: 0.75;
+}
+
+.buy-button4:active {
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom-div {
+  background-color: rgb(64, 91, 240);
+  height: 150px;
+  margin-top: 100px;
+  padding-top: 50px;
+}
+
+a {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.credits {
+  margin: 0 15px;
+  color: azure;
+  text-decoration: underline;
+  font-size: 18px;
+  margin-left: 604px;
+}
+
+.products-anchor {
+  margin-left: 50px;
+  color: white;
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+.line {
+  margin-top: 35px;
+  width: 1100px;
+  height: 1px;
+  background-color: rgb(78, 77, 77);
+  border: none;
+}
+
+.ending-line {
+  text-align: center;
+  font-size: 14px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+
+.last-div {
+  background-color: cornflowerblue;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0px;
+}
+
+.copyright-line {
+  font-size: 10px;
+  text-align: center;
+  padding-top: 5px;
+}
+
